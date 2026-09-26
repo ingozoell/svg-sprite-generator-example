@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f4f7ff; color: #17213a; font: 17px/1.65 system-ui, sans-serif; }
+main { max-width: 1040px; margin: 0 auto; padding: 64px 24px; }
+.eyebrow { color: #2458ed; font-size: 13px; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; }
+h1 { max-width: 800px; font-size: clamp(36px, 6vw, 64px); line-height: 1.08; letter-spacing: -.045em; margin: 20px 0; }
+h2 { font-size: 25px; line-height: 1.3; margin-top: 0; }
+a { color: #1744c4; text-underline-offset: 4px; }
+.intro { max-width: 660px; color: #52617b; }
+.button { display: inline-block; padding: 13px 22px; margin-top: 14px; background: #2458ed; color: white; border-radius: 10px; text-decoration: none; font-weight: 650; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 16px; margin: 40px 0; }
+figure { margin: 0; padding: 28px 12px 20px; background: white; border: 1px solid #dce3f1; border-radius: 16px; text-align: center; }
+figure img { display: block; margin: 0 auto 18px; }
+figcaption { font-size: 14px; font-weight: 600; }
+section { padding: 28px; margin-top: 24px; background: white; border: 1px solid #dce3f1; border-radius: 16px; }
+pre { background: #142039; color: #e5edff; padding: 22px; border-radius: 10px; overflow-x: auto; font-size: 14px; }
+code { font-family: ui-monospace, monospace; }
+li + li { margin-top: 8px; }
+footer { color: #52617b; font-size: 14px; margin-top: 28px; }
+:focus-visible { outline: 3px solid #2458ed; outline-offset: 5px; }
+@media (max-width: 480px) { main { padding: 32px 16px; } section { padding: 20px; } }
