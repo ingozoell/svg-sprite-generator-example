@@ -2,7 +2,7 @@
 
 Five editable SVG icons, one SVG sprite and a ready-to-use HTML demo. No JavaScript, dependencies or build step.
 
-**[Create your own SVG sprite](https://css-img-sprite-generator.ingozoell.de/en/)** — up to 5 images free, no signup required.
+**[Create your own SVG sprite](https://css-img-sprite-generator.ingozoell.de/en/)**
 
 ## Run the demo
 
