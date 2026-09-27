@@ -4,6 +4,10 @@ Five editable SVG icons, one SVG sprite and a ready-to-use HTML demo. No JavaScr
 
 **[Create your own SVG sprite](https://css-img-sprite-generator.ingozoell.de/en/)**
 
+## Generator preview
+
+![Animated walkthrough of the SVG Sprite Generator](gen-ohne-browserkopf.gif)
+
 ## Run the demo
 
 Download this repository as a ZIP, extract it and open `index.html`. Keep all supplied files in the same folder. If your browser restricts local files, serve the folder with any static web server, for example `python3 -m http.server 8000`, and open `http://localhost:8000/`.
